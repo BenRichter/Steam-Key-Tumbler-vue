@@ -1,6 +1,8 @@
 # Steam-Key-Tumbler-vue
 <p align="center">
-  <br><br><strong>Steam Key Tumbler</strong> get unused steam keys from your community <br>(based on Vuepack which uses Vue 2, Vuex, Vue-router and Webpack 2)
+<strong>Steam Key Tumbler</strong> 
+get unused steam keys from your community <br>
+(based on Vuepack which uses Vue 2, Vuex, Vue-router and Webpack 2)
 </p>
 
 
@@ -38,14 +40,7 @@ Check out [the docs](https://github.com/egoist/vuepack/tree/master/docs) for mor
 
 ## Folder Structure
 
-If you did not enable Eletron support, the dest folder is `./dist`, otherwise it's `./app/dist`. 
-
-`./app` folder only exists when you enabled Electron support.
-
 ```bash
-├── app             # the actual app you want to bundle with Electron
-│    ├── dist       # directory which contains all bundled files
-│    └── index.js   # entry file for Electron
 ├── build           # webpack configs and other scripts
 ├── client          # client-side app files
 ├── dist            # bundled files and index.html
