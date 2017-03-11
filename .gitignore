@@ -1,6 +1,10 @@
+node_modules
+*.log
+.DS_Store
+/dist
+
 # IntelliJ project files
 .idea
 *.iml
 out
 gen
-# Created by .ignore support plugin (hsz.mobi)
