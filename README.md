@@ -1,33 +1,26 @@
-# Steam-Key-Tumbler-vue
+# Steam-Key-Tumbler
 <p align="center">
-<strong>Steam Key Tumbler</strong> 
-get unused steam keys from your community <br>
+Receive steam keys by personal share link<br>
 (based on Vuepack which uses Vue 2, Vuex, Vue-router and Webpack 2)
 </p>
 
 
-# steam-key-tumbler
-
-To start:
-
+Installation:
 ```bash
 $ yarn install
 ```
 
-To develop:
-
+Start development server:
 ```bash
 $ yarn run dev
 ```
 
-To build for production:
-
+Build for production:
 ```bash
 $ yarn run build
 ```
 
-To lint you code:
-
+Lint you code:
 ```bash
 $ yarn run lint
 ```
