@@ -1,10 +1,10 @@
 import { Selector } from 'testcafe';
 
 export default class IndexPage {
-    constructor () {
+    constructor() {
         const counterWrapper = Selector('.counter-wrapper');
 
-        this.counter   = counterWrapper.child('.counter');
+        this.counter = counterWrapper.child('.counter');
         this.increment = counterWrapper.child('button').withText('Increment');
         this.desrement = counterWrapper.child('button').withText('Decrement');
     }
