@@ -47,7 +47,7 @@
     "generator-star-spacing": [2, "after"],
     "guard-for-in": [0],
     "handle-callback-err": [0],
-    "indent": [4, 4, {"SwitchCase": 1}],
+    "indent": [1, 4, {"SwitchCase": 1}],
     "key-spacing": [2, {
       "beforeColon": false,
       "afterColon": true
