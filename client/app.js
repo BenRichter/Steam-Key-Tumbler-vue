@@ -11,4 +11,4 @@ const app = new Vue({
     ...App
 });
 
-export { app, router, store };
+export { app };

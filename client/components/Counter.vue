@@ -12,15 +12,12 @@
 <script>
     export default {
         computed: {
-            count()
-            {
-                return this.$store.state.count
-            }
+            count(){ return this.$store.state.count; }
         }
     }
 </script>
 
-<style>
+<style scoped>
     .counter {
       margin: 100px auto;
       border-radius: 3px;

@@ -2,9 +2,7 @@
     <div class="page">
         <h1>Steam Key Tumbler</h1>
 
-        <p>Put in Steam Keys and share the Key with your Community</p>
-
-        <textarea name="steamkeys" id="key-input" cols="60" rows="8"></textarea>
+        <KeyInput></KeyInput>
 
         <counter></counter>
 
@@ -14,10 +12,12 @@
 
 <script>
 import Counter from 'components/Counter'
+import KeyInput from 'components/KeyInput'
 
 export default {
   components: {
-    Counter
+      Counter,
+      KeyInput
   }
 }
 </script>
