@@ -4,25 +4,31 @@
     </div>
 </template>
 
-<style>
-    body {
-        margin:      0;
-        font-size:   2rem;
-        font-family: -apple-system, BlinkMacSystemFont,
-                     'avenir next', avenir,
-                     helvetica, 'helvetica neue',
-                     Ubuntu,
-                     'segoe ui', arial,
-                     sans-serif;
-    }
+<script>
+    require('../reset.css');
+    require('../base.css');
+</script>
 
+<style>
     .page {
-        text-align: center;
+        padding: 1% 2%;
+        max-width: 600px;
+        margin: auto;
+
+        font-size: 1em; /* ~ 16px */
+        line-height: 1.25;  /* ~ 20px */
 
         code {
             background-color: #f0f0f0;
             padding:          3px 5px;
             border-radius:    2px;
+        }
+    }
+
+    @media (min-width: 43.75em) {
+        .page {
+            font-size: 1em;
+            line-height: 1.375;
         }
     }
 </style>
