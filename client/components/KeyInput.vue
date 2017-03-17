@@ -4,11 +4,11 @@
         <textarea name="steamkeys" cols="60" rows="8" v-model="message"></textarea>
 
         <ul>
-            <li v-for="item in array">{{item}}</li>
+            <li v-for="name in names">{{name}}</li>
         </ul>
 
-        <input type="text"/>
-        <button>Add name</button>
+        <input type="text" v-model="newName"/>
+        <button @click="addName">Add name</button>
     </div>
 </template>
 
@@ -16,12 +16,19 @@
     export default {
         data() {
             return {
-                array: ['first', 'second', 'third'],
-                message: 'd\u00F6rp'
+                names: ['first', 'second', 'third'],
+                message: 'd\u00F6rp',
+                newName: ''
+            }
+        },
+        methods: {
+            addName() {
+                this.names.push(this.newName);
+                this.newName = '';
             }
         },
         mounted() {
-            console.log("ready");
+            console.log("### ready");
         }
     }
 </script>
