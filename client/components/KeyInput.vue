@@ -1,6 +1,6 @@
 <template>
     <div class="key-input">
-        <p>Put in Steam Keys and share the Key with your Community: {{message}}</p>
+        <p>Put in Steam Keys and share the Key with your Community:</p>
         <textarea name="steamkeys" cols="60" rows="8" v-model="message"></textarea>
 
         <ul>
@@ -8,7 +8,7 @@
         </ul>
 
         <input type="text" v-model="newName"/>
-        <button @click="addName">Add name</button>
+        <button :title="title" :class="{ 'is-loading': isLoading }" @click="toggleLoading" >Add name</button>
     </div>
 </template>
 
@@ -18,13 +18,18 @@
             return {
                 names: ['first', 'second', 'third'],
                 message: 'd\u00F6rp',
-                newName: ''
+                newName: '',
+                title: 'js set title',
+                isLoading: false
             }
         },
         methods: {
             addName() {
                 this.names.push(this.newName);
                 this.newName = '';
+            },
+            toggleLoading() {
+                this.isLoading = true;
             }
         },
         mounted() {
@@ -34,6 +39,10 @@
 </script>
 
 <style scoped>
+    .is-loading {
+        background: red;
+    }
+
     textarea {
         width: 100%;
     }

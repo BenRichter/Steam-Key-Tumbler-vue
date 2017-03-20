@@ -4,6 +4,10 @@
 
         <KeyInput></KeyInput>
 
+        <hr/>
+
+        <KeyOutput></KeyOutput>
+
         <counter></counter>
 
         <p>Share Link: <code>/share?id=123</code></p>
@@ -13,11 +17,13 @@
 <script>
 import Counter from 'components/Counter'
 import KeyInput from 'components/KeyInput'
+import KeyOutput from 'components/KeyOutput'
 
 export default {
   components: {
       Counter,
-      KeyInput
+      KeyInput,
+      KeyOutput
   }
 }
 </script>
