@@ -1,5 +1,6 @@
 <template>
     <div class="key-input">
+        Hello User: <strong><slot></slot></strong>
         <p>Put in Steam Keys and share the Key with your Community:</p>
         <textarea name="steamkeys" cols="60" rows="8" v-model="message"></textarea>
 

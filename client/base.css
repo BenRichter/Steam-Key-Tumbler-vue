@@ -42,6 +42,8 @@ h3 { font-size: 1.375em; line-height: 1.13636364 }
     h3 { font-size: 1.75em; line-height: 1.25 }
 }
 
+strong { font-weight: bold;}
+
 /* Retina stuff here */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 

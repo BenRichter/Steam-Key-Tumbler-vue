@@ -2,7 +2,7 @@
     <div class="page">
         <h1>Steam Key Tumbler</h1>
 
-        <KeyInput></KeyInput>
+        <KeyInput>Benson</KeyInput>
 
         <hr/>
 
