@@ -8,7 +8,7 @@
 
         <key-output></key-output>
 
-        <counter></counter>
+        <counter unit="eggs"></counter>
 
         <p>Share Link: <code>/share?id=123</code></p>
     </div>
