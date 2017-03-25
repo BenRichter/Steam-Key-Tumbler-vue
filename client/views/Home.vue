@@ -2,11 +2,11 @@
     <div class="page">
         <h1>Steam Key Tumbler</h1>
 
-        <KeyInput>Benson</KeyInput>
+        <key-input>Benson</key-input>
 
         <hr/>
 
-        <KeyOutput></KeyOutput>
+        <key-output></key-output>
 
         <counter></counter>
 
@@ -15,15 +15,15 @@
 </template>
 
 <script>
-import Counter from 'components/Counter'
-import KeyInput from 'components/KeyInput'
-import KeyOutput from 'components/KeyOutput'
+import counter from 'components/Counter'
+import keyInput from 'components/KeyInput'
+import keyOutput from 'components/KeyOutput'
 
 export default {
   components: {
-      Counter,
-      KeyInput,
-      KeyOutput
+      counter,
+      keyInput,
+      keyOutput
   }
 }
 </script>
