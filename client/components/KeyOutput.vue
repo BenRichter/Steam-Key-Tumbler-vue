@@ -6,8 +6,6 @@
         <p>Key:  {{ message }}</p>
         <p>Reversed Key:  {{ reversedMessage }}</p>
 
-
-
     </div>
 </template>
 
