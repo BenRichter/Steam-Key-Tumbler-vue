@@ -1,16 +1,22 @@
 <template>
-    <div class="page">
-        <h1>Steam Key Tumbler</h1>
+    <div>
+        <header>
+            <div class="container">
+                <h1>Steam Key Tumbler</h1>
+            </div>
+        </header>
 
-        <key-input>Benson</key-input>
+        <div class="container">
+            <key-input>Benson</key-input>
 
-        <hr/>
+            <hr/>
 
-        <key-output></key-output>
+            <key-output></key-output>
 
-        <counter unit="eggs"></counter>
+            <counter unit="eggs"></counter>
 
-        <p>Share Link: <code>/share?id=123</code></p>
+            <p>Share Link: <code>/share?id=123</code></p>
+        </div>
     </div>
 </template>
 

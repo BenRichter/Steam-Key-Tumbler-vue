@@ -10,7 +10,15 @@
 </script>
 
 <style>
-    .page {
+    header {
+        background: #171a21;
+
+        h1 {
+            color: #b8b6b4;
+        }
+    }
+
+    .container {
         padding: 1% 2%;
         max-width: 600px;
         margin: auto;
@@ -26,7 +34,7 @@
     }
 
     @media (min-width: 43.75em) {
-        .page {
+        .container {
             font-size: 1em;
             line-height: 1.375;
         }
