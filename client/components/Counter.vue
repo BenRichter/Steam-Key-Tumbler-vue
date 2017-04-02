@@ -39,6 +39,7 @@
       line-height: 200px;
       font-size: 3rem;
       background-color: #f0f0f0;
+        color: #171a21;
       user-select: none;
     }
 
