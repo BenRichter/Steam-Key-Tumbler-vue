@@ -5,8 +5,8 @@
 </template>
 
 <script>
-    require('../reset.css');
-    require('../base.css');
+    require('./reset.css');
+    require('./app.css');
 </script>
 
 <style>
