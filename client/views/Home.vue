@@ -7,6 +7,8 @@
         </header>
 
         <div class="container">
+            <alert-message></alert-message>
+
             <key-input>Benson</key-input>
 
             <hr/>
@@ -23,13 +25,15 @@
 <script>
 import counter from 'components/Counter'
 import keyInput from 'components/KeyInput'
-import keyOutput from 'components/KeyOutput'
+import keyOutput from '../components/KeyOutput'
+import alertMessage from '../components/AlertMessage.vue'
 
 export default {
   components: {
       counter,
       keyInput,
-      keyOutput
+      keyOutput,
+      alertMessage
   }
 }
 </script>

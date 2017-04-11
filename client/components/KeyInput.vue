@@ -31,6 +31,7 @@
             },
             toggleLoading() {
                 this.isLoading = true;
+                this.$emit('loading');
             }
         },
         mounted() {
